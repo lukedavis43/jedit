@@ -14348,6 +14348,7 @@ java.lang.String
 java.lang.invoke.StringConcatFactory
 org.gjt.sp.jedit.gui.KeyEventTranslator
 ||:org.gjt.sp.jedit.textarea.TextAreaPainter
+java.awt.Color
 java.util.Arrays
 java.lang.System
 java.awt.Cursor
@@ -14373,6 +14374,7 @@ org.gjt.sp.jedit.textarea.TextAreaPainter$PaintCaret
 java.awt.Graphics
 org.gjt.sp.jedit.textarea.TextAreaPainter
 java.lang.invoke.StringConcatFactory
+org.gjt.sp.jedit.jEdit
 java.awt.Toolkit
 java.awt.Rectangle
 org.gjt.sp.util.Log

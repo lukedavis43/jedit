@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Lukes-MacBook-Pro-5.local" name="org.gjt.sp.jedit.textarea.FirstLineTest" skipped="0" tests="3" time="0.332" timestamp="2023-12-12T21:38:38">
+<testsuite errors="0" failures="0" hostname="Lukes-MacBook-Pro-5.local" name="org.gjt.sp.jedit.textarea.FirstLineTest" skipped="0" tests="3" time="0.288" timestamp="2023-12-13T18:00:04">
   <properties>
     <property name="sun.boot.library.path.ivy.instance" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib" />
     <property name="java.specification.version" value="11" />
@@ -16,7 +16,7 @@
     <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/local/Cellar/ant/1.10.14/libexec/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
     <property name="ivy.conf.dir" value="/Users/sivadekul/eclipse-workspace/jEdit 2/build" />
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junittestcases13031643747538812958.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/sivadekul/eclipse-workspace/jEdit 2/build/test/raw-reports/IGNORETHIS.xml crashfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junitvmwatcher12626543848703995940.properties propsfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junit9412511369687838126.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junittestcases8706543486320717603.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/sivadekul/eclipse-workspace/jEdit 2/build/test/raw-reports/IGNORETHIS.xml crashfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junitvmwatcher6275870855456826995.properties propsfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junit14633172650756192141.properties" />
     <property name="os.version.ivy.instance" value="10.16" />
     <property name="ivy.retrieve.pattern.ivy.instance" value="/Users/sivadekul/eclipse-workspace/jEdit 2/lib/[artifact]-[revision](-[classifier]).[ext]" />
     <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
@@ -245,9 +245,9 @@
     <property name="ivy.resolved.configurations" value="default, master, compile, runtime, test, provided, sources, javadoc, ant-contrib, docbook, fop, launch4j, scripting, default-plugins, appbundler" />
     <property name="ivy.conf.url" value="file:/Users/sivadekul/eclipse-workspace/jEdit%202/build/ivysettings.xml" />
   </properties>
-  <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="preContentInsertedBefore" time="0.329" />
+  <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="preContentInsertedBefore" time="0.284" />
   <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="preContentInsertedAfter" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="setSkew" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.textarea.FirstLineTest" name="setSkew" time="0.001" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

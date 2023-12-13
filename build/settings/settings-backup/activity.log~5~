@@ -1,0 +1,822 @@
+Log file created on Tue Dec 12 14:38:42 MST 2023
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+2:38:41 PM [main] [message] Log: When reporting bugs, please include the following information:
+2:38:41 PM [main] [message] Log: java.version=11.0.9.1
+2:38:41 PM [main] [message] Log: java.vm.version=11.0.9.1+12-LTS
+2:38:41 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+2:38:41 PM [main] [message] Log: java.runtime.version=11.0.9.1+12-LTS
+2:38:41 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+2:38:41 PM [main] [message] Log: java.vendor=Amazon.com Inc.
+2:38:41 PM [main] [message] Log: java.compiler=null
+2:38:41 PM [main] [message] Log: os.name=Mac OS X
+2:38:41 PM [main] [message] Log: os.version=10.16
+2:38:41 PM [main] [message] Log: os.arch=x86_64
+2:38:41 PM [main] [message] Log: user.home=/Users/sivadekul
+2:38:41 PM [main] [message] Log: java.home=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+2:38:41 PM [main] [message] Log: java.class.path=/Users/sivadekul/eclipse-workspace/jEdit 2/build/jedit.jar
+2:38:41 PM [main] [message] jEdit: starting with command line arguments: -settings=/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings
+2:38:41 PM [main] [debug] jEdit: before splash screen activation:103 ms
+2:38:42 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Warning: the fonts "Times" and "Times" are not available for the Java logical font "Serif", which may have unexpected appearance or behavior. Re-enable the "Times" font to remove this warning.
+2:38:42 PM [main] [debug] jEdit: after splash screen activation:1237 ms
+2:38:42 PM [main] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/activity.log" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/activity.log~1~"
+2:38:42 PM [main] [notice] jEdit: jEdit version 5.6.0
+2:38:42 PM [main] [message] jEdit: Settings directory is /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings
+2:38:42 PM [main] [message] jEdit: jEdit home directory is /Users/sivadekul/eclipse-workspace/jEdit 2/build
+2:38:42 PM [main] [debug] SplashScreen: init:11/841ms
+2:38:42 PM [main] [debug] SplashScreen: init system properties:20/861ms
+2:38:43 PM [main] [message] BeanShell: Beanshell Init
+2:38:43 PM [main] [debug] SplashScreen: init beanshell:29/890ms
+2:38:43 PM [main] [debug] SplashScreen: loading site properties:2/892ms
+2:38:43 PM [main] [debug] SplashScreen: loading user properties:3/895ms
+2:38:43 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+2:38:43 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+2:38:43 PM [main] [debug] SplashScreen: init GUI:3/898ms
+2:38:43 PM [main] [debug] EditServer: jEdit server started on port 50532
+2:38:43 PM [main] [debug] EditServer: Authorization key is 1293191034
+2:38:43 PM [main] [debug] SplashScreen: init server:30/928ms
+2:38:43 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+2:38:43 PM [main] [debug] SplashScreen: init look and feel:12/940ms
+2:38:43 PM [main] [debug] SplashScreen: init VFS Manager:1/941ms
+2:38:43 PM [main] [debug] ActionSet: Loading actions from jar:file:/Users/sivadekul/eclipse-workspace/jEdit%202/build/jedit.jar!/org/gjt/sp/jedit/actions.xml
+2:38:43 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/Users/sivadekul/eclipse-workspace/jEdit%202/build/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+2:38:43 PM [main] [debug] SplashScreen: init resources:58/999ms
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:38:43 PM [main] [debug] SplashScreen: Migrate keymaps:33/1032ms
+2:38:43 PM [main] [notice] jEdit: Loading plugins from /Users/sivadekul/eclipse-workspace/jEdit 2/build/jars
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3,source=/Users/sivadekul/eclipse-workspace/jEdit 2/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.0,source=/Users/sivadekul/eclipse-workspace/jEdit 2/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+2:38:43 PM [main] [notice] jEdit: Loading plugins from /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/jars
+2:38:43 PM [main] [debug] SplashScreen: init plugins:21/1053ms
+2:38:43 PM [main] [message] HistoryModel: Loading history
+2:38:43 PM [main] [debug] SplashScreen: init history model:3/1056ms
+2:38:43 PM [main] [message] BufferHistory: Loading /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml
+2:38:43 PM [main] [debug] SplashScreen: init buffer history:3/1059ms
+2:38:43 PM [main] [message] KillRing: Loading /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml
+2:38:43 PM [main] [debug] SplashScreen: init killring:7/1066ms
+2:38:43 PM [main] [debug] jEdit: initPLAF non-edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+2:38:43 PM [main] [debug] jEdit: SOCKS proxy disabled
+2:38:43 PM [main] [debug] jEdit: HTTP proxy disabled
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+2:38:43 PM [main] [debug] SplashScreen: init various properties:89/1155ms
+2:38:43 PM [main] [message] jEdit: Loading mode catalog file /Users/sivadekul/eclipse-workspace/jEdit 2/build/modes/catalog
+2:38:43 PM [main] [debug] jEdit: Loading user mode catalog
+2:38:43 PM [main] [message] jEdit: Loading mode catalog file /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/modes/catalog
+2:38:43 PM [main] [debug] SplashScreen: init modes:39/1194ms
+2:38:43 PM [main] [debug] PluginJAR: Activating macosx.MacOSXPlugin because of startup
+2:38:43 PM [main] [debug] PluginJAR: Opening /Users/sivadekul/eclipse-workspace/jEdit 2/build/jars/MacOSX.jar
+2:38:43 PM [main] [debug] SplashScreen: activate plugins:11/1205ms
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:315)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setQuitHandler(OSXAdapter.java:50)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:67)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:315)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setAboutHandler(OSXAdapter.java:58)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:68)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: OSXAdapter could not access the About Menu
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.NoSuchMethodException: com.apple.eawt.Application.setEnabledAboutMenu(boolean)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setAboutHandler(OSXAdapter.java:63)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:68)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:315)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setPreferencesHandler(OSXAdapter.java:75)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:69)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: OSXAdapter could not access the About Menu
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.NoSuchMethodException: com.apple.eawt.Application.setEnabledPreferencesMenu(boolean)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.getDeclaredMethod(Class.java:2475)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setPreferencesHandler(OSXAdapter.java:80)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:69)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:315)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setFileHandler(OSXAdapter.java:91)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:70)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: This version of Mac OS X does not support the Apple EAWT.ApplicationEvent handling has been disabled
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter: java.lang.ClassNotFoundException: com.apple.eawt.ApplicationListener
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:519)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName0(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.lang.Class.forName(Class.java:315)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setHandler(OSXAdapter.java:120)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.OSXAdapter.setReOpenApplicationHandler(OSXAdapter.java:110)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at macosx.MacOSXPlugin$1.run(MacOSXPlugin.java:71)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2:38:43 PM [AWT-EventQueue-0] [error] OSXAdapter:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.3,source=/Users/sivadekul/eclipse-workspace/jEdit 2/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+2:38:43 PM [main] [debug] Macros: Registered beanshell macro handler
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+2:38:43 PM [main] [debug] SplashScreen: init macros:26/1231ms
+2:38:43 PM [main] [message] BeanShell: Running script /Users/sivadekul/eclipse-workspace/jEdit 2/build/startup/startup.bsh
+2:38:43 PM [main] [notice] jEdit$2: Loading edit mode /Users/sivadekul/eclipse-workspace/jEdit 2/build/modes/text.xml
+2:38:43 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+2:38:43 PM [main] [debug] SplashScreen: run startup scripts:70/1301ms
+2:38:43 PM [main] [debug] SplashScreen: run startup scripts:1/1302ms
+2:38:43 PM [main] [debug] SplashScreen: run startup scripts:2/1303ms
+2:38:43 PM [main] [debug] jEdit: main done:1743 ms
+2:38:43 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+2:38:43 PM [AWT-EventQueue-0] [debug] BufferSet: 1553224156: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:38:43 PM [AWT-EventQueue-0] [debug] BufferSet: 1553224156 addBufferAt(Untitled-1 (~/eclipse-workspace/jEdit 2/),-1)
+2:38:43 PM [AWT-EventQueue-0] [debug] BufferSet: 1553224156: Buffer added Untitled-1 (~/eclipse-workspace/jEdit 2/) at 0
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:38:43 PM [AWT-EventQueue-0] [debug] BufferSet: 1553224156 addBufferAt(Untitled-1 (~/eclipse-workspace/jEdit 2/),0)
+2:38:43 PM [AWT-EventQueue-0] [debug] BufferSet: 1553224156 addBufferAt(Untitled-1 (~/eclipse-workspace/jEdit 2/),1)
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+2:38:43 PM [AWT-EventQueue-0] [debug] BufferSet: 487197179: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:38:43 PM [AWT-EventQueue-0] [debug] BufferSet: 487197179 addBufferAt(Untitled-1 (~/eclipse-workspace/jEdit 2/),0)
+2:38:43 PM [AWT-EventQueue-0] [debug] BufferSet: 487197179 addBufferAt(Untitled-1 (~/eclipse-workspace/jEdit 2/),1)
+2:38:43 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
+2:38:44 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+2:38:44 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 2353 ms
+2:38:44 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:38:44 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:38:44 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:38:44 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:38:44 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:38:44 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+2:38:44 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:38:44 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:38:44 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+2:38:50 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[inactive]]
+2:38:50 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+2:38:50 PM [AWT-EventQueue-0] [debug] BufferSet: 1553224156: Buffer removed Untitled-1 (~/eclipse-workspace/jEdit 2/)
+2:39:13 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/perspective.xml~1~"
+2:46:38 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:46:38 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:47:14 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+2:47:14 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml
+2:47:14 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/perspective.xml~1~"
+2:47:14 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:47:14 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+2:47:14 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+2:47:14 PM [AWT-EventQueue-0] [debug] BufferSet: 487197179: Buffer removed Untitled-1 (~/eclipse-workspace/jEdit 2/)
+2:47:14 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/eclipse-workspace/jEdit 2/) is in no bufferSet anymore, closing it
+2:47:14 PM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml
+2:47:14 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/recent.xml~1~"
+2:47:14 PM [AWT-EventQueue-0] [message] KillRing: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml
+2:47:14 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/killring.xml~1~"
+2:47:14 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/properties" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/properties~1~"
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [message] EditServer: Socket[addr=/127.0.0.1,port=55099,localport=50532]: connected
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: Socket[addr=/127.0.0.1,port=55099,localport=50532]: authenticated successfully
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: parent = "/Users/sivadekul/eclipse-workspace/jEdit 2";
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: args = new String[1];
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: args[0] = null;
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: view = jEdit.getLastView();
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: buffer = EditServer.handleClient(true,true,false,parent,args);
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: if(buffer != null && false) {
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  buffer.setWaitSocket(socket);
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: }
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: if(view != jEdit.getLastView() && false) {
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  jEdit.getLastView().setWaitSocket(socket);
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: }
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: if(doNotCloseSocket == void)
+9:30:25 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  socket.close();
+9:30:25 AM [AWT-EventQueue-0] [message] PerspectiveManager: Loading /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml
+9:30:25 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+9:30:25 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+9:30:25 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+9:30:25 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+9:30:25 AM [AWT-EventQueue-0] [debug] BufferSet: 388089290: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+9:30:25 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+9:30:25 AM [AWT-EventQueue-0] [debug] BufferSet: 388089290 addBufferAt(Untitled-1 (~/eclipse-workspace/jEdit 2/),-1)
+9:30:25 AM [AWT-EventQueue-0] [debug] BufferSet: 388089290: Buffer added Untitled-1 (~/eclipse-workspace/jEdit 2/) at 0
+9:30:25 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+9:30:25 AM [AWT-EventQueue-0] [debug] BufferSet: 388089290 addBufferAt(Untitled-1 (~/eclipse-workspace/jEdit 2/),0)
+9:30:25 AM [AWT-EventQueue-0] [debug] BufferSet: 388089290 addBufferAt(Untitled-1 (~/eclipse-workspace/jEdit 2/),1)
+9:30:25 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+9:30:32 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+9:30:32 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+9:30:32 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+9:30:37 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/perspective.xml~1~"
+9:30:40 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+9:30:40 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [message] EditServer: Socket[addr=/127.0.0.1,port=55421,localport=50532]: connected
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: Socket[addr=/127.0.0.1,port=55421,localport=50532]: authenticated successfully
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: parent = "/Users/sivadekul/eclipse-workspace/jEdit 2";
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: args = new String[1];
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: args[0] = null;
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: view = jEdit.getLastView();
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: buffer = EditServer.handleClient(true,true,false,parent,args);
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: if(buffer != null && false) {
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  buffer.setWaitSocket(socket);
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: }
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: if(view != jEdit.getLastView() && false) {
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  jEdit.getLastView().setWaitSocket(socket);
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: }
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: if(doNotCloseSocket == void)
+10:16:02 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  socket.close();
+10:16:02 AM [AWT-EventQueue-0] [debug] BufferSet: 1277849081: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+10:16:02 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+10:16:02 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+10:16:02 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
+10:16:07 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/perspective.xml~1~"
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [message] EditServer: Socket[addr=/127.0.0.1,port=55520,localport=50532]: connected
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: Socket[addr=/127.0.0.1,port=55520,localport=50532]: authenticated successfully
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: parent = "/Users/sivadekul/eclipse-workspace/jEdit 2";
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: args = new String[1];
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: args[0] = null;
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: view = jEdit.getLastView();
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: buffer = EditServer.handleClient(true,true,false,parent,args);
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: if(buffer != null && false) {
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  buffer.setWaitSocket(socket);
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: }
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: if(view != jEdit.getLastView() && false) {
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  jEdit.getLastView().setWaitSocket(socket);
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  doNotCloseSocket = true;
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: }
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer: if(doNotCloseSocket == void)
+10:28:10 AM [jEdit server daemon [/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/server]] [debug] EditServer:  socket.close();
+10:28:10 AM [AWT-EventQueue-0] [debug] BufferSet: 1594884342: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+10:28:10 AM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+10:28:10 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+10:28:10 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit: Unable to load language
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit: java.util.zip.ZipException: ZipFile invalid LOC header (bad signature)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:1003)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:1013)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.io.FilterInputStream.read(FilterInputStream.java:133)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.io.InputStreamReader.read(InputStreamReader.java:185)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.io.Reader.read(Reader.java:229)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.Properties$LineReader.readLine(Properties.java:500)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.Properties.load0(Properties.java:415)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.Properties.load(Properties.java:378)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.PropertyManager.loadProps(PropertyManager.java:244)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.PropertyManager.loadLocalizationProps(PropertyManager.java:66)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit.initLocalizationProperties(jEdit.java:3717)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit.propertiesChanged(jEdit.java:1033)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.TabbedOptionDialog.ok(TabbedOptionDialog.java:195)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.TabbedOptionDialog.ok(TabbedOptionDialog.java:181)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.TabbedOptionDialog.actionPerformed(TabbedOptionDialog.java:149)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Dialog.show(Dialog.java:1070)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.show(Component.java:1716)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.setVisible(Component.java:1663)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Window.setVisible(Window.java:1031)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1005)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.CombinedOptions._init(CombinedOptions.java:84)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.CombinedOptions.<init>(CombinedOptions.java:64)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.Reflect.constructObject(Reflect.java:621)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHAllocationExpression.constructObject(BSHAllocationExpression.java:123)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHAllocationExpression.objectAllocation(BSHAllocationExpression.java:114)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHAllocationExpression.eval(BSHAllocationExpression.java:62)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHBlock.eval(BSHBlock.java:80)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BshMethod.invokeImpl(BshMethod.java:362)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:258)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:186)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.BeanShellFacade.runCachedBlock(BeanShellFacade.java:233)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.BeanShell.runCachedBlock(BeanShell.java:439)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.BeanShellAction.invoke(BeanShellAction.java:74)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:343)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit$3.invokeAction(jEdit.java:3417)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit$3.invokeAction(jEdit.java:3399)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.EditAction$Wrapper.actionPerformed(EditAction.java:225)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton.doClick(AbstractButton.java:369)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1020)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/com.apple.laf.AquaMenuItemUI.doClick(AquaMenuItemUI.java:157)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1064)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+10:28:15 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+10:28:15 AM [AWT-EventQueue-0] [debug] jEdit: initPLAF edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+10:28:15 AM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+10:28:15 AM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+10:28:15 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+10:28:15 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+10:28:15 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml
+10:28:15 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/recent.xml~1~"
+10:28:15 AM [AWT-EventQueue-0] [message] KillRing: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml
+10:28:15 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/killring.xml~1~"
+10:28:15 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/properties" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/properties~1~"
+10:28:15 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:28:15 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit: Unable to load language
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit: java.util.zip.ZipException: ZipFile invalid LOC header (bad signature)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:1003)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:1013)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.io.FilterInputStream.read(FilterInputStream.java:133)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.io.InputStreamReader.read(InputStreamReader.java:185)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.io.Reader.read(Reader.java:229)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.Properties$LineReader.readLine(Properties.java:500)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.Properties.load0(Properties.java:415)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.Properties.load(Properties.java:378)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.PropertyManager.loadProps(PropertyManager.java:244)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.PropertyManager.loadLocalizationProps(PropertyManager.java:66)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit.initLocalizationProperties(jEdit.java:3717)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit.propertiesChanged(jEdit.java:1033)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.TabbedOptionDialog.ok(TabbedOptionDialog.java:195)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.TabbedOptionDialog.ok(TabbedOptionDialog.java:181)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.TabbedOptionDialog.actionPerformed(TabbedOptionDialog.java:149)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Dialog.show(Dialog.java:1070)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.show(Component.java:1716)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.setVisible(Component.java:1663)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Window.setVisible(Window.java:1031)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1005)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.CombinedOptions._init(CombinedOptions.java:84)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.CombinedOptions.<init>(CombinedOptions.java:64)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.Reflect.constructObject(Reflect.java:621)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHAllocationExpression.constructObject(BSHAllocationExpression.java:123)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHAllocationExpression.objectAllocation(BSHAllocationExpression.java:114)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHAllocationExpression.eval(BSHAllocationExpression.java:62)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHBlock.eval(BSHBlock.java:80)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BshMethod.invokeImpl(BshMethod.java:362)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:258)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:186)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.BeanShellFacade.runCachedBlock(BeanShellFacade.java:233)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.BeanShell.runCachedBlock(BeanShell.java:439)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.BeanShellAction.invoke(BeanShellAction.java:74)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:343)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit$3.invokeAction(jEdit.java:3417)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit$3.invokeAction(jEdit.java:3399)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.EditAction$Wrapper.actionPerformed(EditAction.java:225)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton.doClick(AbstractButton.java:369)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1020)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/com.apple.laf.AquaMenuItemUI.doClick(AquaMenuItemUI.java:157)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1064)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+10:28:29 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+10:28:29 AM [AWT-EventQueue-0] [debug] jEdit: initPLAF edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+10:28:29 AM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+10:28:29 AM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+10:28:29 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+10:28:29 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+10:28:29 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml
+10:28:29 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/recent.xml~1~"
+10:28:29 AM [AWT-EventQueue-0] [message] KillRing: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml
+10:28:29 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/killring.xml~1~"
+10:28:29 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/properties" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/properties~1~"
+10:28:29 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:28:29 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:28:32 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+10:28:32 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+10:28:32 AM [AWT-EventQueue-0] [debug] BufferSet: 388089290: Buffer removed Untitled-1 (~/eclipse-workspace/jEdit 2/)
+10:28:32 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:28:32 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:28:32 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+10:28:37 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/perspective.xml~1~"
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit: Unable to load language
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit: java.util.zip.ZipException: ZipFile invalid LOC header (bad signature)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:1003)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:1013)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.io.FilterInputStream.read(FilterInputStream.java:133)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.io.InputStreamReader.read(InputStreamReader.java:185)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.io.Reader.read(Reader.java:229)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.Properties$LineReader.readLine(Properties.java:500)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.Properties.load0(Properties.java:415)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.util.Properties.load(Properties.java:378)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.PropertyManager.loadProps(PropertyManager.java:244)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.PropertyManager.loadLocalizationProps(PropertyManager.java:66)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit.initLocalizationProperties(jEdit.java:3717)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit.propertiesChanged(jEdit.java:1033)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.TabbedOptionDialog.ok(TabbedOptionDialog.java:195)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.TabbedOptionDialog.ok(TabbedOptionDialog.java:181)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.TabbedOptionDialog.actionPerformed(TabbedOptionDialog.java:149)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Dialog.show(Dialog.java:1070)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.show(Component.java:1716)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.setVisible(Component.java:1663)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Window.setVisible(Window.java:1031)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1005)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.CombinedOptions._init(CombinedOptions.java:84)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.jedit.options.CombinedOptions.<init>(CombinedOptions.java:64)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.Reflect.constructObject(Reflect.java:621)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHAllocationExpression.constructObject(BSHAllocationExpression.java:123)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHAllocationExpression.objectAllocation(BSHAllocationExpression.java:114)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHAllocationExpression.eval(BSHAllocationExpression.java:62)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BSHBlock.eval(BSHBlock.java:80)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BshMethod.invokeImpl(BshMethod.java:362)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:258)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:186)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.BeanShellFacade.runCachedBlock(BeanShellFacade.java:233)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.BeanShell.runCachedBlock(BeanShell.java:439)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.BeanShellAction.invoke(BeanShellAction.java:74)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:343)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit$3.invokeAction(jEdit.java:3417)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.jEdit$3.invokeAction(jEdit.java:3399)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at org.gjt.sp.jedit.EditAction$Wrapper.actionPerformed(EditAction.java:225)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.AbstractButton.doClick(AbstractButton.java:369)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1020)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/com.apple.laf.AquaMenuItemUI.doClick(AquaMenuItemUI.java:157)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1064)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.AccessController.doPrivileged(Native Method)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+10:28:40 AM [AWT-EventQueue-0] [error] jEdit:  at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+10:28:40 AM [AWT-EventQueue-0] [debug] jEdit: initPLAF edt old=com.apple.laf.AquaLookAndFeel requested=null new=com.apple.laf.AquaLookAndFeel
+10:28:40 AM [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+10:28:40 AM [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+10:28:40 AM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/eclipse-workspace/jEdit 2/)]
+10:28:40 AM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+10:28:40 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml
+10:28:40 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/recent.xml~1~"
+10:28:40 AM [AWT-EventQueue-0] [message] KillRing: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml
+10:28:40 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/killring.xml~1~"
+10:28:40 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/properties" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/properties~1~"
+10:28:40 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:28:40 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:28:42 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+10:28:42 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+10:28:42 AM [AWT-EventQueue-0] [debug] BufferSet: 1594884342: Buffer removed Untitled-1 (~/eclipse-workspace/jEdit 2/)
+10:28:42 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+10:28:42 AM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+10:28:42 AM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+10:28:44 AM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+10:28:44 AM [AWT-EventQueue-0] [message] PerspectiveManager: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml
+10:28:44 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/perspective.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/perspective.xml~1~"
+10:28:44 AM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+10:28:44 AM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+10:28:44 AM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+10:28:44 AM [AWT-EventQueue-0] [debug] BufferSet: 1277849081: Buffer removed Untitled-1 (~/eclipse-workspace/jEdit 2/)
+10:28:44 AM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/eclipse-workspace/jEdit 2/) is in no bufferSet anymore, closing it
+10:28:44 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml
+10:28:44 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/recent.xml~1~"
+10:28:44 AM [AWT-EventQueue-0] [message] KillRing: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml
+10:28:44 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/killring.xml~1~"
+10:28:44 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/properties" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/properties~1~"
+10:28:47 AM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=null]
+10:28:47 AM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+10:28:47 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.3,source=/Users/sivadekul/eclipse-workspace/jEdit 2/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+10:28:47 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.3,source=/Users/sivadekul/eclipse-workspace/jEdit 2/build/jars/MacOSX.jar,class=macosx.MacOSXPlugin]
+10:28:47 AM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.0,source=/Users/sivadekul/eclipse-workspace/jEdit 2/build/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+10:28:47 AM [AWT-EventQueue-0] [message] BufferHistory: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml
+10:28:47 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/recent.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/recent.xml~1~"
+10:28:47 AM [AWT-EventQueue-0] [message] KillRing: Saving /Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml
+10:28:47 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/killring.xml" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/killring.xml~1~"
+10:28:47 AM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/properties" to "/Users/sivadekul/eclipse-workspace/jEdit 2/build/settings/settings-backup/properties~1~"

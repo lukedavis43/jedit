@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Lukes-MacBook-Pro-5.local" name="org.gjt.sp.jedit.MiscUtilitiesTest" skipped="0" tests="94" time="1.295" timestamp="2023-12-12T21:38:37">
+<testsuite errors="0" failures="0" hostname="Lukes-MacBook-Pro-5.local" name="org.gjt.sp.jedit.MiscUtilitiesTest" skipped="0" tests="94" time="1.139" timestamp="2023-12-13T18:00:03">
   <properties>
     <property name="sun.boot.library.path.ivy.instance" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib" />
     <property name="java.specification.version" value="11" />
@@ -16,7 +16,7 @@
     <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/local/Cellar/ant/1.10.14/libexec/lib/ivy-2.5.1.jar!/org/apache/ivy/core/settings" />
     <property name="ivy.conf.dir" value="/Users/sivadekul/eclipse-workspace/jEdit 2/build" />
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junittestcases13031643747538812958.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/sivadekul/eclipse-workspace/jEdit 2/build/test/raw-reports/IGNORETHIS.xml crashfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junitvmwatcher12626543848703995940.properties propsfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junit9412511369687838126.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junittestcases8706543486320717603.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/sivadekul/eclipse-workspace/jEdit 2/build/test/raw-reports/IGNORETHIS.xml crashfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junitvmwatcher6275870855456826995.properties propsfile=/Users/sivadekul/eclipse-workspace/jEdit 2/junit14633172650756192141.properties" />
     <property name="os.version.ivy.instance" value="10.16" />
     <property name="ivy.retrieve.pattern.ivy.instance" value="/Users/sivadekul/eclipse-workspace/jEdit 2/lib/[artifact]-[revision](-[classifier]).[ext]" />
     <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
@@ -245,85 +245,85 @@
     <property name="ivy.resolved.configurations" value="default, master, compile, runtime, test, provided, sources, javadoc, ant-contrib, docbook, fop, launch4j, scripting, default-plugins, appbundler" />
     <property name="ivy.conf.url" value="file:/Users/sivadekul/eclipse-workspace/jEdit%202/build/ivysettings.xml" />
   </properties>
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath" time="1.03" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqualFalse" time="0.01" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="abbreviateUserHomeUnix" time="0.027" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorIndexAbsolute" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath" time="0.903" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqualFalse" time="0.007" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="abbreviateUserHomeUnix" time="0.012" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorIndexAbsolute" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getBaseName2" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvUnix" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeMinus" time="0.012" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeMinus" time="0.011" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathAbsolute" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeStart" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvUnix2" time="0.003" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvUnix2" time="0.004" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLongestPrefix" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURLFileUrl" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeStart2" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeStart2" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileExtensionNoExtension" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorIndexRelative" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesTildeWindows" time="0.002" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileExtension2" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesTildeWindows" time="0.003" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileExtension2" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="escapesToChars" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="classToFile" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows2" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows3" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows3" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows4" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows5" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows5" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows6" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows7" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows7" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows8" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathFileSlash" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathFileWindows" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorIndexNo" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getProtocolOfURL" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getProtocolOfURL" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorWindows1" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorWindows2" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorWindows3" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorWindows3" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathEmpty" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesTilde" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getCompleteBaseName2" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesTilde" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getCompleteBaseName2" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvUnixNoMatch" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows2" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows3" time="0.002" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix1" time="0.012" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPath3Args" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathWindows3" time="0.003" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix1" time="0.013" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPath3Args" time="0.002" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathUrl" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorIndexRelative" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLastSeparatorIndexRelative" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURLEtcPassword" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathDotDotPath" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURL" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathDotDotPath" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURL" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="buildToVersion" time="0.006" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isToolsJarAvailable" time="0.01" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathDotDot" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathDotDot" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathFile" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHome" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getBaseName" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefixButSuffix" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefixButSuffix" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix1ButSuffix" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="resolveSymlinksWindowsUrl" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows1" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows2" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows3" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorWindows4" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathMinus" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathMinus" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathTilde" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathUnix2" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathUnix2" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathWindows" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getCompleteBaseName" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="fileToClass" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeUrl" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathHomeUrl" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathTildeHomeWithoutSeparator" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isAbsolutePathUnix" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLongestPrefix2" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getLongestPrefix3" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath2" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath3" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath3" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="concatPath4" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvWindowsAsUnix" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvWindowsAsUnix" time="0.001" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFirstSeparatorIndexAbsolute" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileName" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual2" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual3" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual3" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="pathsEqual4" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="resolveSymlinksWindows1" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="resolveSymlinksWindows2" time="0.0" />
@@ -332,13 +332,13 @@
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="isURLWindowsPath" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="abbreviateUserHomeWindows" time="0.005" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathDot" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathNullEmpty" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="constructPathNullEmpty" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getFileExtension" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathTildeHomeWithFileSeparator" time="0.001" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvWindowsAsWindows" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="canonPathTildeHomeWithFileSeparator" time="0.0" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoPrefix" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="expandVariablesEnvWindowsAsWindows" time="0.0" />
   <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getNthBackupFileNoSuffix" time="0.0" />
-  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getBackupDirectory" time="0.001" />
+  <testcase classname="org.gjt.sp.jedit.MiscUtilitiesTest" name="getBackupDirectory" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

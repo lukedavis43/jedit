@@ -38,7 +38,7 @@ import org.gjt.sp.jedit.syntax.DefaultTokenHandler;
 import org.gjt.sp.jedit.syntax.SyntaxStyle;
 import org.gjt.sp.jedit.syntax.Token;
 import org.gjt.sp.jedit.Debug;
-
+import org.gjt.sp.jedit.jEdit;
 import org.gjt.sp.util.Log;
 //}}}
 
@@ -908,6 +908,13 @@ public class TextAreaPainter extends JComponent implements TabExpander
 
 			if(Debug.PAINT_TIMER && numLines >= 1)
 				Log.log(Log.DEBUG,this,"repainting " + numLines + " lines took " + prepareTime + "/" + linesTime + " ns");
+			
+			if (jEdit.getBooleanProperty("notepadStyle")) {
+				gfx.setColor(Color.blue);
+				for (int i = 0; i < numLines; i++) {
+					gfx.fillRect(0, i*lineHeight, getWidth(), 1);
+				}
+			}
 		}
 
 		textArea.updateMaxHorizontalScrollWidth();
